@@ -1,0 +1,20 @@
+.item-d {
+  height: 100%;
+  animation: move 6s ease-in-out infinite alternate ;
+}
+@keyframes move {
+  33% {
+    transform: translateY(-50px);
+  }
+  66% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(-150px);
+  }
+}
+
+.clip {
+  clip-path: polygon(100% 0%, 100% 44%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-color: var(--main-color);
+}

@@ -1,0 +1,6 @@
+.img {
+  transition: all 10s ease;
+}
+.img:hover {
+  transform: translateY(-100%);
+}
